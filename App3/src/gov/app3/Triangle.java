@@ -1,7 +1,7 @@
 package gov.app3;
 class Triangle implements RegularShapes {
     public double area(double x) {
-        System.out.printf("Total areas: %.2f%n", x * x * Math.sqrt(3) / 4);
+        System.out.printf("Triangle area: %.2f%n", x * x * Math.sqrt(3) / 4);
         return x * x * Math.sqrt(3) / 4;
     }
 
